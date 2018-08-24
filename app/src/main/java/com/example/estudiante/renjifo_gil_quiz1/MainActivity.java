@@ -32,12 +32,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+
                 Intent entrar=new Intent(getApplicationContext(),InicioDeSesion.class);
+
             String usuario = et_usuario.getText().toString();
             String contra = et_contra.getText().toString();
+                entrar.putExtra("usuario", usuario );
+                entrar.putExtra("contra",contra);
 
 
-            startActivityForResult(entrar,Cons.USER);
+                if(usuario.equals("Administrador") &&  contra.equals("123456")) {
+
+                    startActivityForResult(entrar, Cons.USER);
+
+
+                } else {
+                    tv_estado.setText("El usuario o la contraseña no es correcto");
+                }
+
             }
         });
 

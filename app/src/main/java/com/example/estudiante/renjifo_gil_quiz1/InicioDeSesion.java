@@ -12,6 +12,7 @@ public class InicioDeSesion extends AppCompatActivity {
 
 
     private Button btn_cerrar;
+    private TextView tv_nombre;
 
 
 
