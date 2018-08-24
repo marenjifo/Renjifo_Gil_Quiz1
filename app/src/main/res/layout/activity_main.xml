@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/fondo"
+    android:gravity="center_horizontal">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Aloha! introduce tus datos"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:background="@drawable/bordes"
+        android:padding="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:textColorHint="#545454"
+        android:textColor="#ffffff"
+        android:id="@+id/et_usuario"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:background="@drawable/bordes"
+        android:padding="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColorHint="#545454"
+        android:textColor="#ffffff"
+        android:id="@+id/et_contra"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:textColorHint="#ffffff"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#ffffff"
+
+        android:id="@+id/tv_estado"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bordes"
+        android:textColor="#454545"
+        android:text="INGRESAR"
+        android:padding="10dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btn_ingresar"
+        />
+
+
+    <!-- Sebastian Gil-Maria Alejandra Renjifo -->
+
+
+</LinearLayout>
